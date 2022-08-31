@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-               bat 'basic.html'
+               bat 'googlechrome basic.html'
             }
         }
         stage('Test') {
